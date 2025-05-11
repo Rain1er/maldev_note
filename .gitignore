@@ -1,1 +1,4 @@
 .DS_Store
+Debug/
+x64/
+.vs/
