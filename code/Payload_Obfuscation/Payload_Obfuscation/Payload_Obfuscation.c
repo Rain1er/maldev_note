@@ -300,11 +300,11 @@ BOOL GenerateUuidOutput(unsigned char* pShellcode, SIZE_T ShellcodeSize) {
 
 int main()
 {
-	GenerateIpv4Output(Data_RawData, sizeof(Data_RawData));
+	//GenerateIpv4Output(Data_RawData, sizeof(Data_RawData));
 
-	GenerateIpv6Output(Data_RawData, sizeof(Data_RawData));
+	//GenerateIpv6Output(Data_RawData, sizeof(Data_RawData));
 
-	GenerateMacOutput(Data_RawData, sizeof(Data_RawData));
+	//GenerateMacOutput(Data_RawData, sizeof(Data_RawData));
 
 	GenerateUuidOutput(Data_RawData, sizeof(Data_RawData));
 }
